@@ -1,0 +1,27 @@
+.row .col-md-7.input__number{
+    margin-bottom: 5px;
+}
+/* doi tien usd sang vnd */
+.row.usd{
+    padding-bottom: 10px;
+}
+/* tinh chu vi, dien tich hinh chu nhat */
+#canhA{
+    margin-left: -100px;
+}
+#canhB{
+    margin-left: -90px;
+}
+.row.btn__content{
+    padding-top: 20px;
+}
+ #btn__click1{
+     margin-left: 230px;
+ }
+ /* tính tổng hai ký số */
+ #inPutNumber{
+     margin-left: -100px;
+ }
+ .row p{
+     padding-top: 15px;
+ }

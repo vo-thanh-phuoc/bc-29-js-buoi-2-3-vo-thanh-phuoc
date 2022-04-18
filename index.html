@@ -1,0 +1,230 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>javascript</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <div class="row container m-auto">
+        <div class="col-md-6">
+            <div class="card">
+                <div class="card-header text-center">
+                    Tổng lương nhân viên
+                </div>
+                <div class="card-body">
+                    <div class="row">
+                        <div class="col-md-4">
+                            <table>số ngày công</table>
+                        </div>
+                        <div class="col-md-8">
+                            <input id="ngayCong" type="text" />
+                        </div>
+                    </div>
+
+
+                </div>
+                <button id="tinhTongTien" class="btn btn-success">Tính</button>
+                <div id="thanhTien" class="card-footer text-muted">
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <!-- tính giá trị trung bình -->
+    <div class="row container m-auto">
+        <div class="col-md-6">
+            <div class="card">
+                <div class="card-header text-center">
+                    Tính trung bình cộng
+                </div>
+                <div class="card-body">
+                    <div class="row container m-auto">
+                        <div class="col-md-5">
+                            <table>số thứ nhất</table>
+                        </div>
+                        <div class="col-md-7 input__number">
+                            <input id="inPutNo1" type="text/">
+                        </div>
+
+                    </div>
+                    <div class="row row container m-auto">
+                        <div class="col-md-5">
+                            <table>số thứ hai</table>
+                        </div>
+                        <div class="col-md-7 input__number">
+                            <input id="inPutNo2" type="text/">
+                        </div>
+
+                    </div>
+                    <div class="row container m-auto">
+                        <div class="col-md-5">
+                            <table>số thứ ba</table>
+                        </div>
+                        <div class="col-md-7 input__number">
+                            <input id="inPutNo3" type="text/">
+                        </div>
+
+                    </div>
+                    <div class="row container m-auto">
+                        <div class="col-md-5">
+                            <table>số thứ tư</table>
+                        </div>
+                        <div class="col-md-7 input__number">
+                            <input id="inPutNo4" type="text/">
+                        </div>
+
+                    </div>
+                    <div class="row container m-auto">
+                        <div class="col-md-5">
+                            <table>số thứ năm</table>
+                        </div>
+                        <div class="col-md-7 input__number">
+                            <input id="inPutNo5" type="text/">
+                        </div>
+
+                    </div>
+                </div>
+                <button id="trungBinhCong" class="btn btn-success">Trung bình cộng</button>
+                <div id="ketQua" class="card-footer text-muted">
+                    
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <!-- quy đổi tiền usd sang vnd -->
+    <div class="row container m-auto">
+        <div class="col-md-6">
+            <div class="card">
+                <div class="card-header text-center">
+                Bảng quy đổi tiền tệ
+                </div>
+                <div class="card-body">
+                    <div class="row container m-auto usd">
+                        <div class="col-md-5">
+                            <table>Nhập số lượng USD:</table>
+                        </div>
+                        <div class="col-md-7">
+                            <input id="soLuongUsd" type="text"/>
+                        </div>
+                    </div>
+                    <button id="quyDoi" class="btn btn-success container m-auto">QUY ĐỔI VND</button>
+                </div>
+                <div id="soTienSauQuyDoi" class="card-footer text-muted">
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <!-- tính diện tích, chu vi hình chữ nhật -->
+<div class="row container m-auto">
+    <div class="col-md-8">
+        <div class="card">
+            <div class="card-header text-center">
+                Bảng tính chu vi và diện tích hình chữ nhật
+            </div>
+            <div class="card-body">
+                <div class="row">
+                    <div class="col-md-3">
+                        <table>chiều dài</table>
+                    </div>
+                    <div class="col-md-3 canhdai">
+                        <input id="canhA" type="text"/>
+                    </div>
+                    <div class="col-md-3">
+                        <table>chiều rộng</table>
+                    </div>
+                    <div class="col-md-3 canhrong">
+                        <input id="canhB" type="text"/>
+                    </div>
+
+                </div>
+                <div class="row btn__content">
+                    <div class="col-md-6">
+                        <button id="btn__click1" class="btn btn-success ">CHU VI</button>
+                    </div>
+                    <div class="col-md-6">
+                        <button id="btn__click2" class="btn btn-success">DIỆN TÍCH</button>
+                    </div>
+                </div>
+            </div>
+            <div id="ketQua1" class="card-footer text-muted">
+            </div>
+        </div>
+    </div>
+</div>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<!-- tính tổng hai ký số -->
+<div class="row container m-auto">
+    <div class="col-md-6">
+        <div class="card">
+            <div class="card-header text-center">
+            Bảng tính tổng ký số hai chữ số
+            </div>
+            <div class="card-body">
+                <div class="row">
+                    <div class="col-md-5">
+                        <table>Nhập số</table>
+                    </div>
+                    <div class="col-md-7">
+                        <input id="inPutNumber" type="text">
+                    </div>
+                </div>
+                
+                
+                <p class="card-text">* Chú ý số nhập vào là số thực có hai chữ số</p>
+            </div>
+            <button id="tongKySo" class="btn btn-success">Tính tổng</button>
+            <div id="tongKy2So" class="card-footer text-muted">
+                
+            </div>
+        </div>
+    </div>
+</div>
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+    <script src="./main.js"></script>
+</body>
+
+</html>
